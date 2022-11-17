@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeIN</title>
+    <link rel="stylesheet" href="c.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-------------Header------------->
+    <section class="header">
+        <nav>
+            <div class="nav" id="navlinks">
+                <i class="fa fa-close" onclick="hidemenu()"></i>
+                
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ACHIEVMENTS</a></li>
+                    <li><a href="">CERTIFICATES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>  
+            </div> 
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>World's Biggest Company</h1>
+            <p>Working on coding is one of the easiest thing in the world.You just need to learn the programming languages and <br>you are good to go</p>
+            <a href="" class="btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    
+    <!------------Skills---------------->
+    <section class="content">
+        <h1>Skills We Need</h1>
+        <p>These are the skills we need to hire you to the company</p>
+        <div class="row">
+            <div class="column">
+                <h3>PYTHON</h3>
+                <p>What is Python used for?
+                    Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.</p>
+            </div>
+            <div class="column">
+                <h3>C</h3>
+                <p>C programming language is a machine-independent programming language that is mainly used to create many types of applications and operating systems such as Windows, and other complicated programs such as the Oracle database, Git, Python interpreter, and games and is considered a programming foundation</p>
+            </div>
+            <div class="column">
+                <h3>JAVA</h3>
+                <p>Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages.</p>
+            </div>
+        </div>
+    </section>
+    <!------------Company---------------->
+    <section class="company">
+        <h1>Our Company</h1>
+        <p>Our Company Is a Multinational Company.We Have Many Branches Across The World</p>
+        <div class="row">
+            <div class="company-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="company-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+            <div class="company-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3>AMERICA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------Facilities------------->
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>We Have Many Facilities.Let It Cherish You.</p>
+        <div class="row">
+            <div class="fac-col">
+                <img src="images/library.png">
+                <h3>Wolrd Class Library</h3>
+                <p>We have a wrld class library inside the company</p>
+            </div>
+            <div class="fac-col">
+                <img src="images/basketball.png">
+                <h3>Indoor Games</h3>
+                <p>We have facilities for the indoor games in the office</p>
+            </div>
+            <div class="fac-col">
+                <img src="images/cafeteria.png">
+                <h3>Cafeteria</h3>
+                <p>We have a healthy and friendly cafeteria with free of cost for employees</p>
+            </div>
+        </div>
+    </section>
+    <!------------About------------------>
+    <section class="about">
+        <h1>About Us</h1>
+        <p>We Are One Of The Leading Company In The World.There Are Many Competitions To Us.<br>And Our Services Are always available To All The Persons</p>
+    </section>
+    <!-------------Connect--------------->
+    <section class="connect">
+        <h1>Connect Us</h1>
+        <div class="row">
+            <div class="icon-col">
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!------------Javascript------------->
+
+    <script>
+        var nav=document.getElementById("navlinks");
+        function showmenu(){
+            nav.style.right="0px";
+        }
+        function hidemenu(){
+            nav.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
